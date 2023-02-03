@@ -1,0 +1,33 @@
+.searchLabel {
+  margin: 0 24px 5px;
+  display: block;
+  text-align: left;
+  color: #1e1e1f;
+}
+
+.TodoSearch {
+  background: #f9fbfc;
+  border-radius: 2px;
+  border: 2px solid transparent;
+  padding: 0 24px;
+  height: 64px;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  font-family: montserrat;
+  font-weight: 400;
+  color: #1e1e1f;
+  box-shadow: 0 5px 50px rgb(32 35 41 / 25%);
+  outline: 3px solid #202329;
+  outline-color: transparent;
+  transition: all .5s;
+  box-sizing: border-box;
+}
+.TodoSearch::placeholder {
+  color:#a5a5a5;
+  font-family:montserrat;
+  font-weight:400
+}
+.TodoSearch:focus {
+  outline-color:#103DA0
+}

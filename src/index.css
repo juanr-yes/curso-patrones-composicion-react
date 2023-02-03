@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: ;
+  color: #1e1e1f;
+  font-family: montserrat,Arial,Helvetica,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
+}

@@ -1,0 +1,13 @@
+.EmptyTodoItem {
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:24px;
+  min-height: 70px;
+  font-weight: 700;
+}
+.EmptyTodoItem span {
+  display: contents;
+  color: #103DA0
+}
